@@ -58,83 +58,83 @@ Foundations  & GenAI     & Automat.  & Cloud     Stack       Projects
 
 ## 📅 Plan mensual
 
-### [🏗️ Marzo — Backend Foundations](./marzo/)
+### [🏗️ Marzo — Backend Foundations](./1-marzo/)
 
 > _Sentar las bases con APIs robustas, autenticación, scraping y herramientas CLI_
 
-| Semana | Proyecto                                              | Tecnologías clave            | Descripción                                                   |
-| ------ | ----------------------------------------------------- | ---------------------------- | ------------------------------------------------------------- |
-| 01     | **[TaskFlow API](./marzo/semana-01-taskflow-api.md)** | FastAPI, PostgreSQL, Docker  | API REST completa con CRUD, filtros, paginación y tests       |
-| 02     | **[AuthGuard](./marzo/semana-02-authguard.md)**       | Django, DRF, JWT             | Sistema de autenticación con roles, permisos y refresh tokens |
-| 03     | **[DataHarvest](./marzo/semana-03-dataharvest.md)**   | Selenium, Pandas, PostgreSQL | Web scraper inteligente con extracción y análisis de datos    |
-| 04     | **[DevCLI](./marzo/semana-04-devcli.md)**             | Python, Typer, Rich          | Herramienta CLI para productividad de desarrolladores         |
+| Semana | Proyecto                                                | Tecnologías clave            | Descripción                                                   |
+| ------ | ------------------------------------------------------- | ---------------------------- | ------------------------------------------------------------- |
+| 01     | **[TaskFlow API](./1-marzo/semana-01-taskflow-api.md)** | FastAPI, PostgreSQL, Docker  | API REST completa con CRUD, filtros, paginación y tests       |
+| 02     | **[AuthGuard](./1-marzo/semana-02-authguard.md)**       | Django, DRF, JWT             | Sistema de autenticación con roles, permisos y refresh tokens |
+| 03     | **[DataHarvest](./1-marzo/semana-03-dataharvest.md)**   | Selenium, Pandas, PostgreSQL | Web scraper inteligente con extracción y análisis de datos    |
+| 04     | **[DevCLI](./1-marzo/semana-04-devcli.md)**             | Python, Typer, Rich          | Herramienta CLI para productividad de desarrolladores         |
 
 ---
 
-### [🤖 Abril — IA/ML & GenAI](./abril/)
+### [🤖 Abril — IA/ML & GenAI](./2-abril/)
 
 > _Integrar inteligencia artificial en aplicaciones prácticas y productivas_
 
-| Semana | Proyecto                                          | Tecnologías clave          | Descripción                                                         |
-| ------ | ------------------------------------------------- | -------------------------- | ------------------------------------------------------------------- |
-| 05     | **[ConversAI](./abril/semana-05-conversai.md)**   | LangChain, FastAPI, OpenAI | Chatbot conversacional con memoria y contexto                       |
-| 06     | **[MCPForge](./abril/semana-06-mcpforge.md)**     | MCP SDK, Python, Docker    | Servidor MCP personalizado que expone herramientas como servicio    |
-| 07     | **[DocuMind](./abril/semana-07-documind.md)**     | RAG, Embeddings, LangChain | Pipeline de Q&A sobre documentos con retrieval augmented generation |
-| 08     | **[SentiScope](./abril/semana-08-sentiscope.md)** | NLP, FastAPI, Pandas       | API de análisis de sentimiento y extracción de entidades            |
+| Semana | Proyecto                                            | Tecnologías clave          | Descripción                                                         |
+| ------ | --------------------------------------------------- | -------------------------- | ------------------------------------------------------------------- |
+| 05     | **[ConversAI](./2-abril/semana-05-conversai.md)**   | LangChain, FastAPI, OpenAI | Chatbot conversacional con memoria y contexto                       |
+| 06     | **[MCPForge](./2-abril/semana-06-mcpforge.md)**     | MCP SDK, Python, Docker    | Servidor MCP personalizado que expone herramientas como servicio    |
+| 07     | **[DocuMind](./2-abril/semana-07-documind.md)**     | RAG, Embeddings, LangChain | Pipeline de Q&A sobre documentos con retrieval augmented generation |
+| 08     | **[SentiScope](./2-abril/semana-08-sentiscope.md)** | NLP, FastAPI, Pandas       | API de análisis de sentimiento y extracción de entidades            |
 
 ---
 
-### [📊 Mayo — Data Engineering & Automation](./mayo/)
+### [📊 Mayo — Data Engineering & Automation](./3-mayo/)
 
 > _Dominar pipelines de datos, ETL, monitoreo y automatización empresarial_
 
-| Semana | Proyecto                                         | Tecnologías clave           | Descripción                                                  |
-| ------ | ------------------------------------------------ | --------------------------- | ------------------------------------------------------------ |
-| 09     | **[DataBridge](./mayo/semana-09-databridge.md)** | Python, PostgreSQL, SQLite  | Pipeline ETL completo con validación, transformación y carga |
-| 10     | **[PriceWatch](./mayo/semana-10-pricewatch.md)** | Selenium, Pandas, SQLite    | Sistema de monitoreo de precios con scraping y alertas       |
-| 11     | **[FlowEngine](./mayo/semana-11-flowengine.md)** | n8n, Webhooks, APIs         | Automatización de flujos empresariales con n8n               |
-| 12     | **[InsightAPI](./mayo/semana-12-insightapi.md)** | FastAPI, Pandas, Plotly     | API de reportes dinámicos con visualizaciones                |
-| 13     | **[LogStream](./mayo/semana-13-logstream.md)**   | Python, PostgreSQL, FastAPI | Sistema de ingestión y análisis de logs                      |
+| Semana | Proyecto                                           | Tecnologías clave           | Descripción                                                  |
+| ------ | -------------------------------------------------- | --------------------------- | ------------------------------------------------------------ |
+| 09     | **[DataBridge](./3-mayo/semana-09-databridge.md)** | Python, PostgreSQL, SQLite  | Pipeline ETL completo con validación, transformación y carga |
+| 10     | **[PriceWatch](./3-mayo/semana-10-pricewatch.md)** | Selenium, Pandas, SQLite    | Sistema de monitoreo de precios con scraping y alertas       |
+| 11     | **[FlowEngine](./3-mayo/semana-11-flowengine.md)** | n8n, Webhooks, APIs         | Automatización de flujos empresariales con n8n               |
+| 12     | **[InsightAPI](./3-mayo/semana-12-insightapi.md)** | FastAPI, Pandas, Plotly     | API de reportes dinámicos con visualizaciones                |
+| 13     | **[LogStream](./3-mayo/semana-13-logstream.md)**   | Python, PostgreSQL, FastAPI | Sistema de ingestión y análisis de logs                      |
 
 ---
 
-### [☁️ Junio — DevOps & Cloud](./junio/)
+### [☁️ Junio — DevOps & Cloud](./4-junio/)
 
 > _Infraestructura, CI/CD, containerización y despliegue en la nube_
 
-| Semana | Proyecto                                            | Tecnologías clave            | Descripción                                           |
-| ------ | --------------------------------------------------- | ---------------------------- | ----------------------------------------------------- |
-| 14     | **[ShipIt](./junio/semana-14-shipit.md)**           | GitHub Actions, Docker, AWS  | Pipeline CI/CD completo con deploy automático         |
-| 15     | **[MicroNode](./junio/semana-15-micronode.md)**     | Node.js, Express, TypeScript | Microservicio profesional con buenas prácticas        |
-| 16     | **[GateKeeper](./junio/semana-16-gatekeeper.md)**   | Python, Redis, JWT           | API Gateway con rate limiting, caché y auth           |
-| 17     | **[CloudDeploy](./junio/semana-17-clouddeploy.md)** | AWS Lambda, API Gateway, IaC | Despliegue serverless con infraestructura como código |
+| Semana | Proyecto                                              | Tecnologías clave            | Descripción                                           |
+| ------ | ----------------------------------------------------- | ---------------------------- | ----------------------------------------------------- |
+| 14     | **[ShipIt](./4-junio/semana-14-shipit.md)**           | GitHub Actions, Docker, AWS  | Pipeline CI/CD completo con deploy automático         |
+| 15     | **[MicroNode](./4-junio/semana-15-micronode.md)**     | Node.js, Express, TypeScript | Microservicio profesional con buenas prácticas        |
+| 16     | **[GateKeeper](./4-junio/semana-16-gatekeeper.md)**   | Python, Redis, JWT           | API Gateway con rate limiting, caché y auth           |
+| 17     | **[CloudDeploy](./4-junio/semana-17-clouddeploy.md)** | AWS Lambda, API Gateway, IaC | Despliegue serverless con infraestructura como código |
 
 ---
 
-### [🔗 Julio — Full-Stack Integration](./julio/)
+### [🔗 Julio — Full-Stack Integration](./5-julio/)
 
 > _Proyectos full-stack que combinan frontend y backend en experiencias completas_
 
-| Semana | Proyecto                                              | Tecnologías clave          | Descripción                                        |
-| ------ | ----------------------------------------------------- | -------------------------- | -------------------------------------------------- |
-| 18     | **[ProjectHub](./julio/semana-18-projecthub.md)**     | React, FastAPI, PostgreSQL | App de gestión de proyectos full-stack             |
-| 19     | **[LiveDash](./julio/semana-19-livedash.md)**         | WebSockets, React, Charts  | Dashboard en tiempo real con gráficos interactivos |
-| 20     | **[ContentForge](./julio/semana-20-contentforge.md)** | React, FastAPI, Markdown   | Mini CMS headless con API y panel de admin         |
-| 21     | **[NotifyHub](./julio/semana-21-notifyhub.md)**       | FastAPI, Celery, React     | Sistema de notificaciones multi-canal              |
+| Semana | Proyecto                                                | Tecnologías clave          | Descripción                                        |
+| ------ | ------------------------------------------------------- | -------------------------- | -------------------------------------------------- |
+| 18     | **[ProjectHub](./5-julio/semana-18-projecthub.md)**     | React, FastAPI, PostgreSQL | App de gestión de proyectos full-stack             |
+| 19     | **[LiveDash](./5-julio/semana-19-livedash.md)**         | WebSockets, React, Charts  | Dashboard en tiempo real con gráficos interactivos |
+| 20     | **[ContentForge](./5-julio/semana-20-contentforge.md)** | React, FastAPI, Markdown   | Mini CMS headless con API y panel de admin         |
+| 21     | **[NotifyHub](./5-julio/semana-21-notifyhub.md)**       | FastAPI, Celery, React     | Sistema de notificaciones multi-canal              |
 
 ---
 
-### [🏆 Agosto — Capstone Projects](./agosto/)
+### [🏆 Agosto — Capstone Projects](./6-agosto/)
 
 > _Proyectos integradores que demuestran dominio completo del stack_
 
-| Semana | Proyecto                                                 | Tecnologías clave          | Descripción                                          |
-| ------ | -------------------------------------------------------- | -------------------------- | ---------------------------------------------------- |
-| 22     | **[AutomateAI](./agosto/semana-22-automateai.md)**       | FastAPI, LangChain, React  | Plataforma de automatización potenciada por IA       |
-| 23     | **[APIMarket](./agosto/semana-23-apimarket.md)**         | FastAPI, React, Docker     | Agregador de APIs con documentación automática       |
-| 24     | **[PortfolioOS](./agosto/semana-24-portfolioos.md)**     | React, TailwindCSS, Vercel | Portfolio personal interactivo y moderno             |
-| 25     | **[OpenContrib](./agosto/semana-25-opencontrib.md)**     | Git, GitHub, Open Source   | Contribución documentada a proyecto open source      |
-| 26     | **[Retrospectiva](./agosto/semana-26-retrospectiva.md)** | Markdown, Mermaid, Docs    | Documentación final, métricas y lecciones aprendidas |
+| Semana | Proyecto                                                   | Tecnologías clave          | Descripción                                          |
+| ------ | ---------------------------------------------------------- | -------------------------- | ---------------------------------------------------- |
+| 22     | **[AutomateAI](./6-agosto/semana-22-automateai.md)**       | FastAPI, LangChain, React  | Plataforma de automatización potenciada por IA       |
+| 23     | **[APIMarket](./6-agosto/semana-23-apimarket.md)**         | FastAPI, React, Docker     | Agregador de APIs con documentación automática       |
+| 24     | **[PortfolioOS](./6-agosto/semana-24-portfolioos.md)**     | React, TailwindCSS, Vercel | Portfolio personal interactivo y moderno             |
+| 25     | **[OpenContrib](./6-agosto/semana-25-opencontrib.md)**     | Git, GitHub, Open Source   | Contribución documentada a proyecto open source      |
+| 26     | **[Retrospectiva](./6-agosto/semana-26-retrospectiva.md)** | Markdown, Mermaid, Docs    | Documentación final, métricas y lecciones aprendidas |
 
 ---
 
