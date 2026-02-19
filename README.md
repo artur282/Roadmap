@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Duración-6_meses-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Proyectos-26-green?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Ritmo-1_por_semana-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Stack-Python_|_Rust_|_IA_|_DevOps-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Stack-Python_|_Rust_|_IA_|_Mobile_|_DevOps-purple?style=for-the-badge"/>
 </p>
 
 ---
@@ -49,7 +49,7 @@ Foundations  & GenAI     & Automat.  & Cloud     Stack       Projects
   │            │            │            │            │            │
   ├─ TaskFlow  ├─ ConversAI ├─ DataBridg ├─ ShipIt    ├─ ProjectH  ├─ AutomateAI
   ├─ AuthGuard ├─ MCPForge  ├─ PriceWat  ├─ MicroNode ├─ LiveDash  ├─ APIMarket
-  ├─ DataHarv  ├─ DocuMind  ├─ FlowEng   ├─ GateKeep  ├─ ContentF  ├─ PortfolioOS
+  ├─ DataHarv  ├─ DocuMind  ├─ FlowEng   ├─ GateKeep  ├─ SnapTask📱├─ PortfolioOS
   └─ RustCLI🦀 └─ SentiSco  ├─ InsightAP ├─ CloudDep  └─ NotifyH   ├─ OpenContrib
                              └─ LogStream                           └─ Retrospect.
 ```
@@ -119,7 +119,7 @@ Foundations  & GenAI     & Automat.  & Cloud     Stack       Projects
 | ------ | ------------------------------------------------------- | -------------------------- | -------------------------------------------------- |
 | 18     | **[ProjectHub](./5-julio/semana-18-projecthub.md)**     | React, FastAPI, PostgreSQL | App de gestión de proyectos full-stack             |
 | 19     | **[LiveDash](./5-julio/semana-19-livedash.md)**         | WebSockets, React, Charts  | Dashboard en tiempo real con gráficos interactivos |
-| 20     | **[ContentForge](./5-julio/semana-20-contentforge.md)** | React, FastAPI, Markdown   | Mini CMS headless con API y panel de admin         |
+| 20     | **[SnapTask](./5-julio/semana-20-snaptask.md)**         | React Native, Expo, FastAPI| App móvil de gestión de tareas con sync en la nube 📱|
 | 21     | **[NotifyHub](./5-julio/semana-21-notifyhub.md)**       | FastAPI, Celery, React     | Sistema de notificaciones multi-canal              |
 
 ---
@@ -141,13 +141,13 @@ Foundations  & GenAI     & Automat.  & Cloud     Stack       Projects
 ## 🛠️ Stack tecnológico
 
 ```
-Backend          IA/ML & GenAI       Datos & Automation    DevOps & Cloud      Frontend
-─────────        ──────────────      ──────────────────    ──────────────      ────────
+Backend          IA/ML & GenAI       Datos & Automation    DevOps & Cloud      Frontend & Mobile
+─────────        ──────────────      ──────────────────    ──────────────      ─────────────────
 Python 3.11+     LangChain           PostgreSQL            Docker              React
-FastAPI          MCP SDK             Pandas                GitHub Actions      TypeScript
-Django/DRF       OpenAI API          SQLite                AWS Lambda          TailwindCSS
-Rust 🦀          Prompt Eng.         n8n                   Linux/Bash          HTML5/CSS3
-Node.js/Express  Embeddings          Selenium              Git                 JavaScript
+FastAPI          MCP SDK             Pandas                GitHub Actions      React Native 📱
+Django/DRF       OpenAI API          SQLite                AWS Lambda          TypeScript
+Rust 🦀          Prompt Eng.         n8n                   Linux/Bash          TailwindCSS
+Node.js/Express  Embeddings          Selenium              Git                 Expo
 ```
 
 ---
