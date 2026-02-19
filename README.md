@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Duración-6_meses-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Proyectos-26-green?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Ritmo-1_por_semana-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Stack-Python_|_IA_|_DevOps-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Stack-Python_|_Rust_|_IA_|_DevOps-purple?style=for-the-badge"/>
 </p>
 
 ---
@@ -50,7 +50,7 @@ Foundations  & GenAI     & Automat.  & Cloud     Stack       Projects
   ├─ TaskFlow  ├─ ConversAI ├─ DataBridg ├─ ShipIt    ├─ ProjectH  ├─ AutomateAI
   ├─ AuthGuard ├─ MCPForge  ├─ PriceWat  ├─ MicroNode ├─ LiveDash  ├─ APIMarket
   ├─ DataHarv  ├─ DocuMind  ├─ FlowEng   ├─ GateKeep  ├─ ContentF  ├─ PortfolioOS
-  └─ DevCLI    └─ SentiSco  ├─ InsightAP ├─ CloudDep  └─ NotifyH   ├─ OpenContrib
+  └─ RustCLI🦀 └─ SentiSco  ├─ InsightAP ├─ CloudDep  └─ NotifyH   ├─ OpenContrib
                              └─ LogStream                           └─ Retrospect.
 ```
 
@@ -67,7 +67,7 @@ Foundations  & GenAI     & Automat.  & Cloud     Stack       Projects
 | 01     | **[TaskFlow API](./1-marzo/semana-01-taskflow-api.md)** | FastAPI, PostgreSQL, Docker  | API REST completa con CRUD, filtros, paginación y tests       |
 | 02     | **[AuthGuard](./1-marzo/semana-02-authguard.md)**       | Django, DRF, JWT             | Sistema de autenticación con roles, permisos y refresh tokens |
 | 03     | **[DataHarvest](./1-marzo/semana-03-dataharvest.md)**   | Selenium, Pandas, PostgreSQL | Web scraper inteligente con extracción y análisis de datos    |
-| 04     | **[DevCLI](./1-marzo/semana-04-devcli.md)**             | Python, Typer, Rich          | Herramienta CLI para productividad de desarrolladores         |
+| 04     | **[RustCLI](./1-marzo/semana-04-rustcli.md)**           | Rust, Clap, Ratatui          | Herramienta CLI de alto rendimiento para desarrolladores 🦀   |
 
 ---
 
@@ -146,8 +146,8 @@ Backend          IA/ML & GenAI       Datos & Automation    DevOps & Cloud      F
 Python 3.11+     LangChain           PostgreSQL            Docker              React
 FastAPI          MCP SDK             Pandas                GitHub Actions      TypeScript
 Django/DRF       OpenAI API          SQLite                AWS Lambda          TailwindCSS
-Node.js          Prompt Eng.         n8n                   Linux/Bash          HTML5/CSS3
-Express          Embeddings          Selenium              Git                 JavaScript
+Rust 🦀          Prompt Eng.         n8n                   Linux/Bash          HTML5/CSS3
+Node.js/Express  Embeddings          Selenium              Git                 JavaScript
 ```
 
 ---
