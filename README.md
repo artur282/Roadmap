@@ -48,7 +48,7 @@ MAR ──────── ABR ──────── MAY ──────
 Foundations  & GenAI     & Automat.  & Cloud     Stack       Projects
   │            │            │            │            │            │
   ├─ TaskFlow  ├─ ConversAI ├─ DataBridg ├─ ShipIt    ├─ ProjectH  ├─ AutomateAI
-  ├─ AuthGuard ├─ MCPForge  ├─ PriceWat  ├─ MicroNode ├─ LiveDash  ├─ APIMarket
+  ├─ AuthGuard ├─ MCPForge  ├─ PriceWat  ├─ AxumMicro ├─ LiveDash  ├─ APIMarket
   ├─ DataHarv  ├─ DocuMind  ├─ FlowEng   ├─ GateKeep  ├─ SnapTask📱├─ PortfolioOS
   └─ RustCLI🦀 └─ SentiSco  ├─ InsightAP ├─ CloudDep  └─ NotifyH   ├─ OpenContrib
                              └─ LogStream                           └─ Retrospect.
@@ -105,7 +105,7 @@ Foundations  & GenAI     & Automat.  & Cloud     Stack       Projects
 | Semana | Proyecto                                              | Tecnologías clave            | Descripción                                           |
 | ------ | ----------------------------------------------------- | ---------------------------- | ----------------------------------------------------- |
 | 14     | **[ShipIt](./4-junio/semana-14-shipit.md)**           | GitHub Actions, Docker, AWS  | Pipeline CI/CD completo con deploy automático         |
-| 15     | **[MicroNode](./4-junio/semana-15-micronode.md)**     | Node.js, Express, TypeScript | Microservicio profesional con buenas prácticas        |
+| 15     | **[AxumMicro](./4-junio/semana-15-axummicro.md)**     | Axum, SQLx, Serde, Docker    | Microservicio ultraligero con Distroless (20-30MB)    |
 | 16     | **[GateKeeper](./4-junio/semana-16-gatekeeper.md)**   | Python, Redis, JWT           | API Gateway con rate limiting, caché y auth           |
 | 17     | **[CloudDeploy](./4-junio/semana-17-clouddeploy.md)** | AWS Lambda, API Gateway, IaC | Despliegue serverless con infraestructura como código |
 
