@@ -67,7 +67,7 @@ Foundations  & GenAI     & Automat.  & Cloud     Stack       Projects
 | 01     | **[TaskFlow API](./1-marzo/semana-01-taskflow-api.md)** | FastAPI, PostgreSQL, Docker  | API REST completa con CRUD, filtros, paginación y tests       |
 | 02     | **[AuthGuard](./1-marzo/semana-02-authguard.md)**       | Django, DRF, JWT             | Sistema de autenticación con roles, permisos y refresh tokens |
 | 03     | **[DataHarvest](./1-marzo/semana-03-dataharvest.md)**   | Selenium, Pandas, PostgreSQL | Web scraper inteligente con extracción y análisis de datos    |
-| 04     | **[RustCLI](./1-marzo/semana-04-rustcli.md)**           | Rust, Clap, Ratatui          | Herramienta CLI de alto rendimiento para desarrolladores 🦀   |
+| 04     | **[RustCLI (DashTUI)](./1-marzo/semana-04-rustcli.md)** | Rust, Clap, Ratatui          | TUI interactivo y CLI todo-en-uno de alto rendimiento 🦀✅    |
 
 ---
 
@@ -198,15 +198,15 @@ Domingo tarde     → Polish, deploy y README (2-3h)
 
 ## 📊 Progreso
 
-| Mes       | Proyectos | Completados | Estado       |
-| --------- | --------- | ----------- | ------------ |
-| 🏗️ Marzo  | 4         | 0/4         | ⬜ Pendiente |
-| 🤖 Abril  | 4         | 0/4         | ⬜ Pendiente |
-| 📊 Mayo   | 5         | 0/5         | ⬜ Pendiente |
-| ☁️ Junio  | 4         | 0/4         | ⬜ Pendiente |
-| 🔗 Julio  | 4         | 0/4         | ⬜ Pendiente |
-| 🏆 Agosto | 5         | 0/5         | ⬜ Pendiente |
-| **Total** | **26**    | **0/26**    | **0%**       |
+| Mes       | Proyectos | Completados | Estado         |
+| --------- | --------- | ----------- | -------------- |
+| 🏗️ Marzo  | 4         | 1/4         | 🔄 En progreso |
+| 🤖 Abril  | 4         | 0/4         | ⬜ Pendiente   |
+| 📊 Mayo   | 5         | 0/5         | ⬜ Pendiente   |
+| ☁️ Junio  | 4         | 0/4         | ⬜ Pendiente   |
+| 🔗 Julio  | 4         | 0/4         | ⬜ Pendiente   |
+| 🏆 Agosto | 5         | 0/5         | ⬜ Pendiente   |
+| **Total** | **26**    | **1/26**    | **3%**         |
 
 ---
 

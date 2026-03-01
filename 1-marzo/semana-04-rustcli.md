@@ -2,53 +2,61 @@
 
 > **Herramienta CLI de alto rendimiento para desarrolladores con Rust, Clap y Ratatui**
 
-| Campo              | Detalle              |
-| ------------------ | -------------------- |
-| 📅 Fechas          | 28-29 de marzo 2026  |
-| 🏷️ Categoría       | Backend Foundations  |
-| ⏱️ Tiempo estimado | 10-12 horas          |
-| 📊 Dificultad      | ⭐⭐⭐ Intermedio   |
+| Campo              | Detalle                                                 |
+| ------------------ | ------------------------------------------------------- |
+| 📅 Fechas          | 28-29 de marzo 2026                                     |
+| 🏷️ Categoría       | Backend Foundations                                     |
+| ⏱️ Tiempo estimado | 10-12 horas                                             |
+| 📊 Dificultad      | ⭐⭐⭐ Intermedio                                       |
+| 📊 Estado          | ✅ Completado                                           |
+| 🔗 Repositorio     | [GitHub (DashTUI)](https://github.com/artur282/DashTUI) |
 
 ---
 
 ## 🎯 Descripción
 
-RustCLI es una herramienta de línea de comandos de alto rendimiento diseñada para aumentar la productividad de desarrolladores. Incluye utilidades como: scaffold de proyectos, gestión de snippets de código, análisis de repositorios Git y un dashboard interactivo en terminal. Todo construido en **Rust** para máxima velocidad y eficiencia de memoria.
+RustCLI (ahora conocido como **DashTUI**) es una herramienta de línea de comandos todo-en-uno con un dashboard interactivo (TUI) de primer nivel diseñada para aumentar la productividad de desarrolladores. Incluye utilidades como: scaffold de proyectos (con plantillas nativas de Docker Compose), gestión de snippets de código leyendo automáticamente del portapapeles, análisis de repositorios Git en tiempo real, gestor de tareas, cronómetro pomodoro y una innovadora integración con **skills.sh** para descubrir AI Skills.
 
-Este proyecto demuestra dominio de Rust como lenguaje de sistemas, su modelo de ownership/borrowing, y la capacidad de crear herramientas profesionales con su ecosistema de crates.
+Todo está construido en **Rust** para máxima velocidad y eficiencia de memoria, operable 100% mediante el teclado. Este proyecto demuestra el dominio en crear herramientas profesionales y robustas para el ecosistema de desarrolladores.
 
 ---
 
-## ✨ Features
+## ✨ Features (Implementadas en DashTUI)
 
-### Scaffold de proyectos
+### 📊 1. General y Tareas
 
-- [ ] `rustcli init <template>` — Crear proyecto desde template
-- [ ] Templates: rust-cli, rust-api, python-fastapi, node-express
-- [ ] Generación de Dockerfile, docker-compose, Makefile
-- [ ] Configuración automática del proyecto (Cargo.toml / pyproject.toml)
-- [ ] Inicialización de Git + .gitignore
+- [x] Dashboard interactivo navegable con flechas (Ratatui)
+- [x] Vista general del entorno y métricas.
+- [x] Gestor de "to-do" list integrado con atajos (`a` agregar, `x` completar, `d` eliminar).
 
-### Gestión de snippets
+### ⏱️ 2. Pomodoro
 
-- [ ] `rustcli snippet add <name>` — Guardar snippet de código
-- [ ] `rustcli snippet list` — Listar snippets con búsqueda fuzzy
-- [ ] `rustcli snippet get <name>` — Copiar snippet al clipboard
-- [ ] `rustcli snippet export` — Exportar todos los snippets a JSON
-- [ ] Almacenamiento local con SQLite (rusqlite)
+- [x] Cronómetro de concentración nativo en terminal.
+- [x] Sigue periodos de enfoque con descansos automáticos.
 
-### Utilidades Git
+### 🐳 3. Scaffold (Docker Ready)
 
-- [ ] `rustcli git stats` — Estadísticas del repo (commits, contribuidores)
-- [ ] `rustcli git changelog` — Generar changelog desde commits convencionales
-- [ ] `rustcli git clean-branches` — Limpiar ramas ya mergeadas
+- [x] Potente generador de proyectos (`bootstrap`) con mejores prácticas.
+- [x] Templates nativos con **Docker Compose**: `rust-cli`, `rust-api`, `python-fastapi`, `python-django` (con PostgreSQL embebido), `node-express`.
+- [x] Generación de `Dockerfile` multi-stage, `Makefile` unificado y `.gitignore`.
 
-### Dashboard interactivo (TUI)
+### 📝 4. Gestión de snippets
 
-- [ ] `rustcli dash` — Dashboard interactivo en terminal con Ratatui
-- [ ] Visualización de estadísticas del proyecto actual
-- [ ] Lista de tareas pendientes con navegación por teclado
-- [ ] Timer pomodoro integrado con barra de progreso
+- [x] Manager de fragmentos de código conectado a base de datos embebida local.
+- [x] Lectura automática del código desde el **portapapeles actual**.
+- [x] Copiado fluido de vuelta al portapapeles.
+
+### 🌿 5. Utilidades Git
+
+- [x] Monitor en tiempo real del estado del repositorio (top contributors, total de commits).
+- [x] Detección de ramas limpias y fuera de uso.
+- [x] Limpieza de ramas locales ya mergeadas con un solo botón.
+
+### 🔌 6. Skills (NUEVO)
+
+- [x] Integración nativa con **skills.sh**
+- [x] Búsqueda en el leaderboard global del ecosistema Agent.
+- [x] Instalación inmediata mediante `npx skills add`.
 
 ---
 
@@ -115,47 +123,46 @@ rustcli/
 | -------------- | ------------------------------------------------- |
 | 🌅 9:00-10:00  | Setup: `cargo init`, Cargo.toml, estructura base  |
 | 🌅 10:00-12:00 | Definición CLI con Clap + comando `init` con Tera |
-| 🌞 12:00-13:00 | Base de datos SQLite con rusqlite                  |
-| 🌞 14:00-16:00 | Comandos de snippets (add, list, get, export)      |
-| 🌆 16:00-18:00 | Utilidades Git con git2 (stats, changelog)         |
+| 🌞 12:00-13:00 | Base de datos SQLite con rusqlite                 |
+| 🌞 14:00-16:00 | Comandos de snippets (add, list, get, export)     |
+| 🌆 16:00-18:00 | Utilidades Git con git2 (stats, changelog)        |
 
 ### Domingo
 
-| Hora           | Actividad                                           |
-| -------------- | --------------------------------------------------- |
-| 🌅 9:00-10:30  | Dashboard TUI con Ratatui (layout, widgets)         |
-| 🌅 10:30-12:00 | Interactividad TUI (navegación, timer pomodoro)     |
-| 🌞 13:00-14:30 | Tests unitarios e integración                       |
-| 🌞 14:30-16:00 | Error handling robusto + manejo de tipos de error    |
-| 🌆 16:00-17:00 | README con GIFs de demo, `cargo install` y Dockerfile|
+| Hora           | Actividad                                             |
+| -------------- | ----------------------------------------------------- |
+| 🌅 9:00-10:30  | Dashboard TUI con Ratatui (layout, widgets)           |
+| 🌅 10:30-12:00 | Interactividad TUI (navegación, timer pomodoro)       |
+| 🌞 13:00-14:30 | Tests unitarios e integración                         |
+| 🌞 14:30-16:00 | Error handling robusto + manejo de tipos de error     |
+| 🌆 16:00-17:00 | README con GIFs de demo, `cargo install` y Dockerfile |
 
 ---
 
 ## ✅ Definición de "hecho"
 
-- [ ] Al menos 4 comandos funcionales compilados en un solo binario
-- [ ] Dashboard TUI interactivo con Ratatui
-- [ ] Instalable con `cargo install --path .`
-- [ ] Snippets persistentes con SQLite (rusqlite)
-- [ ] Tests unitarios para cada módulo
-- [ ] Manejo de errores con tipos personalizados (sin `unwrap()` en producción)
-- [ ] README con ejemplos, instrucciones y al menos un GIF de demostración
-- [ ] Binario cross-platform (Linux, macOS, Windows)
+- [x] Dashboard TUI interactivo con Ratatui funcional y navegable por pestañas
+- [x] Scaffold generando múltiples lenguajes listos para Docker
+- [x] Instalable con `make install` o `cargo install`
+- [x] Snippets interoperables con el portapapeles del SO
+- [x] Lógica de estado validada y robusta (sin crashes incontrolados en UI)
+- [x] README completo con ejemplos, shields y documentación listos para Open Source
+- [x] Binario cross-platform testeado
 
 ---
 
 ## 🧠 Conceptos de Rust demostrados
 
-| Concepto                  | Aplicación en el proyecto                    |
-| ------------------------- | -------------------------------------------- |
-| Ownership & Borrowing     | Manejo eficiente de strings y buffers        |
-| Pattern Matching          | Parsing de comandos y manejo de errores      |
-| Enums + Result/Option     | Error handling idiomático                    |
-| Traits                    | Abstracciones para storage y templates       |
-| Lifetime annotations      | Referencias en estructuras de datos          |
-| Módulos y crates          | Organización profesional del código          |
-| Async (opcional)          | Operaciones de red no bloqueantes            |
-| Derive macros             | Serialización con serde, CLI con clap        |
+| Concepto              | Aplicación en el proyecto               |
+| --------------------- | --------------------------------------- |
+| Ownership & Borrowing | Manejo eficiente de strings y buffers   |
+| Pattern Matching      | Parsing de comandos y manejo de errores |
+| Enums + Result/Option | Error handling idiomático               |
+| Traits                | Abstracciones para storage y templates  |
+| Lifetime annotations  | Referencias en estructuras de datos     |
+| Módulos y crates      | Organización profesional del código     |
+| Async (opcional)      | Operaciones de red no bloqueantes       |
+| Derive macros         | Serialización con serde, CLI con clap   |
 
 ---
 
@@ -163,9 +170,9 @@ rustcli/
 
 | Habilidad                | Evidencia                                         |
 | ------------------------ | ------------------------------------------------- |
-| Rust idiomático          | Ownership, borrowing, pattern matching, traits     |
-| Systems programming      | Binario único, cero runtime, alto rendimiento      |
-| UX en terminal           | TUI interactiva con Ratatui, experiencia pulida    |
-| Diseño de software       | Módulos desacoplados, error types, clean code      |
-| Ecosistema Rust          | Clap, Serde, Ratatui, rusqlite, git2               |
-| Distribución profesional | `cargo install`, Dockerfile, binarios multi-plat.  |
+| Rust idiomático          | Ownership, borrowing, pattern matching, traits    |
+| Systems programming      | Binario único, cero runtime, alto rendimiento     |
+| UX en terminal           | TUI interactiva con Ratatui, experiencia pulida   |
+| Diseño de software       | Módulos desacoplados, error types, clean code     |
+| Ecosistema Rust          | Clap, Serde, Ratatui, rusqlite, git2              |
+| Distribución profesional | `cargo install`, Dockerfile, binarios multi-plat. |
