@@ -45,7 +45,8 @@ Este proyecto demuestra una de las aplicaciones más demandadas de GenAI en la i
                            │
               ┌────────────▼────────────┐
               │    Vector Store         │
-              │  (ChromaDB / FAISS)     │
+              │  (Pinecone / Chroma /   │
+              │   Weaviate / pgvector)  │
               └────────────┬────────────┘
                            │
         ┌──────────────────┼──────────────────┐
@@ -71,7 +72,7 @@ Este proyecto demuestra una de las aplicaciones más demandadas de GenAI en la i
 ### Búsqueda y retrieval
 
 - [ ] Generación de embeddings
-- [ ] Almacenamiento en vector store (ChromaDB)
+- [ ] Almacenamiento en vector store (Pinecone, Weaviate, Chroma o pgvector)
 - [ ] Búsqueda semántica (Top-K)
 - [ ] Filtrado por metadatos
 - [ ] Score de relevancia
@@ -94,15 +95,15 @@ Este proyecto demuestra una de las aplicaciones más demandadas de GenAI en la i
 
 ## 🛠️ Stack técnico
 
-| Tecnología    | Propósito        |
-| ------------- | ---------------- |
-| **LangChain** | Orquestación RAG |
-| **ChromaDB**  | Vector store     |
-| **OpenAI**    | Embeddings + LLM |
-| **FastAPI**   | API REST         |
-| **PyPDF2**    | Lectura de PDFs  |
-| **Docker**    | Containerización |
-| **pytest**    | Testing          |
+| Tecnología          | Propósito        |
+| ------------------- | ---------------- |
+| **LangChain**       | Orquestación RAG |
+| **Pinecone/Chroma** | Vector store     |
+| **OpenAI**          | Embeddings + LLM |
+| **FastAPI**         | API REST         |
+| **PyPDF2**          | Lectura de PDFs  |
+| **Docker**          | Containerización |
+| **pytest**          | Testing          |
 
 ---
 
@@ -124,13 +125,13 @@ POST   /api/v1/search                  # Búsqueda semántica directa
 
 ### Sábado
 
-| Hora           | Actividad                               |
-| -------------- | --------------------------------------- |
-| 🌅 9:00-10:00  | Setup: LangChain, ChromaDB, FastAPI     |
-| 🌅 10:00-12:00 | Document loaders + text splitters       |
-| 🌞 12:00-13:00 | Embedding generation + ChromaDB storage |
-| 🌞 14:00-16:00 | Retriever + RAG chain                   |
-| 🌆 16:00-18:00 | API de upload y Q&A                     |
+| Hora           | Actividad                                |
+| -------------- | ---------------------------------------- |
+| 🌅 9:00-10:00  | Setup: LangChain, Vector DB, FastAPI     |
+| 🌅 10:00-12:00 | Document loaders + text splitters        |
+| 🌞 12:00-13:00 | Embedding generation + Vector DB storage |
+| 🌞 14:00-16:00 | Retriever + RAG chain                    |
+| 🌆 16:00-18:00 | API de upload y Q&A                      |
 
 ### Domingo
 

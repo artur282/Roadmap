@@ -26,7 +26,7 @@ Demostrar capacidad para integrar inteligencia artificial en aplicaciones reales
 - Construcción de servidores MCP (Model Context Protocol)
 - Pipelines RAG (Retrieval Augmented Generation)
 - Procesamiento de lenguaje natural (NLP)
-- Embeddings y búsqueda semántica
+- Embeddings, Vector DBs (Pinecone, Chroma, pgvector) y búsqueda semántica
 - Gestión de contexto y memoria en chatbots
 
 ---
@@ -41,7 +41,7 @@ Semana 06: MCPForge
     │  Aprende: MCP SDK, tool calling → IA como servicio
     ▼
 Semana 07: DocuMind
-    │  Aprende: RAG, embeddings, vector stores → Q&A sobre datos
+    │  Aprende: RAG, embeddings, vector stores (Pinecone/pgvector) → Q&A sobre datos
     ▼
 Semana 08: SentiScope
        Aprende: NLP, análisis de texto → IA práctica sin LLMs

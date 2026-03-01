@@ -79,7 +79,7 @@ Foundations  & GenAI     & Automat.  & Cloud     Stack       Projects
 | ------ | --------------------------------------------------- | -------------------------- | ------------------------------------------------------------------- |
 | 05     | **[ConversAI](./2-abril/semana-05-conversai.md)**   | LangChain, FastAPI, OpenAI | Chatbot conversacional con memoria y contexto                       |
 | 06     | **[MCPForge](./2-abril/semana-06-mcpforge.md)**     | MCP SDK, Python, Docker    | Servidor MCP personalizado que expone herramientas como servicio    |
-| 07     | **[DocuMind](./2-abril/semana-07-documind.md)**     | RAG, Embeddings, LangChain | Pipeline de Q&A sobre documentos con retrieval augmented generation |
+| 07     | **[DocuMind](./2-abril/semana-07-documind.md)**     | RAG, Vector DBs, LangChain | Pipeline de Q&A sobre documentos con retrieval augmented generation |
 | 08     | **[SentiScope](./2-abril/semana-08-sentiscope.md)** | NLP, FastAPI, Pandas       | API de análisis de sentimiento y extracción de entidades            |
 
 ---
@@ -115,12 +115,12 @@ Foundations  & GenAI     & Automat.  & Cloud     Stack       Projects
 
 > _Proyectos full-stack que combinan frontend y backend en experiencias completas_
 
-| Semana | Proyecto                                                | Tecnologías clave          | Descripción                                        |
-| ------ | ------------------------------------------------------- | -------------------------- | -------------------------------------------------- |
-| 18     | **[ProjectHub](./5-julio/semana-18-projecthub.md)**     | React, FastAPI, PostgreSQL | App de gestión de proyectos full-stack             |
-| 19     | **[LiveDash](./5-julio/semana-19-livedash.md)**         | WebSockets, React, Charts  | Dashboard en tiempo real con gráficos interactivos |
-| 20     | **[SnapTask](./5-julio/semana-20-snaptask.md)**         | React Native, Expo, FastAPI| App móvil de gestión de tareas con sync en la nube 📱|
-| 21     | **[NotifyHub](./5-julio/semana-21-notifyhub.md)**       | FastAPI, Celery, React     | Sistema de notificaciones multi-canal              |
+| Semana | Proyecto                                            | Tecnologías clave           | Descripción                                           |
+| ------ | --------------------------------------------------- | --------------------------- | ----------------------------------------------------- |
+| 18     | **[ProjectHub](./5-julio/semana-18-projecthub.md)** | React, FastAPI, PostgreSQL  | App de gestión de proyectos full-stack                |
+| 19     | **[LiveDash](./5-julio/semana-19-livedash.md)**     | WebSockets, React, Charts   | Dashboard en tiempo real con gráficos interactivos    |
+| 20     | **[SnapTask](./5-julio/semana-20-snaptask.md)**     | React Native, Expo, FastAPI | App móvil de gestión de tareas con sync en la nube 📱 |
+| 21     | **[NotifyHub](./5-julio/semana-21-notifyhub.md)**   | FastAPI, Celery, React      | Sistema de notificaciones multi-canal                 |
 
 ---
 
@@ -128,13 +128,13 @@ Foundations  & GenAI     & Automat.  & Cloud     Stack       Projects
 
 > _Proyectos integradores que demuestran dominio completo del stack_
 
-| Semana | Proyecto                                                   | Tecnologías clave          | Descripción                                          |
-| ------ | ---------------------------------------------------------- | -------------------------- | ---------------------------------------------------- |
-| 22     | **[AutomateAI](./6-agosto/semana-22-automateai.md)**       | FastAPI, LangChain, React  | Plataforma de automatización potenciada por IA       |
-| 23     | **[APIMarket](./6-agosto/semana-23-apimarket.md)**         | FastAPI, React, Docker     | Agregador de APIs con documentación automática       |
-| 24     | **[PortfolioOS](./6-agosto/semana-24-portfolioos.md)**     | React, TailwindCSS, Vercel | Portfolio personal interactivo y moderno             |
-| 25     | **[OpenContrib](./6-agosto/semana-25-opencontrib.md)**     | Git, GitHub, Open Source   | Contribución documentada a proyecto open source      |
-| 26     | **[Retrospectiva](./6-agosto/semana-26-retrospectiva.md)** | Markdown, Mermaid, Docs    | Documentación final, métricas y lecciones aprendidas |
+| Semana | Proyecto                                                   | Tecnologías clave              | Descripción                                          |
+| ------ | ---------------------------------------------------------- | ------------------------------ | ---------------------------------------------------- |
+| 22     | **[AutomateAI](./6-agosto/semana-22-automateai.md)**       | FastAPI, LangChain, Vector DBs | Plataforma de automatización potenciada por IA       |
+| 23     | **[APIMarket](./6-agosto/semana-23-apimarket.md)**         | FastAPI, React, Docker         | Agregador de APIs con documentación automática       |
+| 24     | **[PortfolioOS](./6-agosto/semana-24-portfolioos.md)**     | React, TailwindCSS, Vercel     | Portfolio personal interactivo y moderno             |
+| 25     | **[OpenContrib](./6-agosto/semana-25-opencontrib.md)**     | Git, GitHub, Open Source       | Contribución documentada a proyecto open source      |
+| 26     | **[Retrospectiva](./6-agosto/semana-26-retrospectiva.md)** | Markdown, Mermaid, Docs        | Documentación final, métricas y lecciones aprendidas |
 
 ---
 
@@ -148,6 +148,8 @@ FastAPI          MCP SDK             Pandas                GitHub Actions      R
 Django/DRF       OpenAI API          SQLite                AWS Lambda          TypeScript
 Rust 🦀          Prompt Eng.         n8n                   Linux/Bash          TailwindCSS
 Node.js/Express  Embeddings          Selenium              Git                 Expo
+                 Vector DBs (Pinecone,
+                 Chroma, pgvector)
 ```
 
 ---

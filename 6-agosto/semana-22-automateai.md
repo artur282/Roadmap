@@ -80,15 +80,16 @@ Combina: Backend robusto (FastAPI), IA (LangChain/OpenAI), Automatización (Cele
 
 ## 🛠️ Stack técnico
 
-| Tecnología             | Propósito                            |
-| ---------------------- | ------------------------------------ |
-| **FastAPI**            | Backend API                          |
-| **LangChain**          | Lógica de IA y generación de flujos  |
-| **Celery**             | Orquestación de tareas distribuidas  |
-| **Redis**              | Broker de mensajería y caché         |
-| **PostgreSQL**         | Persistencia de datos y definiciones |
-| **React + React Flow** | Frontend interactivo                 |
-| **Docker Compose**     | Infraestructura completa             |
+| Tecnología             | Propósito                             |
+| ---------------------- | ------------------------------------- |
+| **FastAPI**            | Backend API                           |
+| **LangChain**          | Lógica de IA y generación de flujos   |
+| **Vector DBs**         | Pinecone, Chroma, Weaviate o pgvector |
+| **Celery**             | Orquestación de tareas distribuidas   |
+| **Redis**              | Broker de mensajería y caché          |
+| **PostgreSQL**         | Persistencia de datos y definiciones  |
+| **React + React Flow** | Frontend interactivo                  |
+| **Docker Compose**     | Infraestructura completa              |
 
 ---
 
