@@ -2,12 +2,13 @@
 
 > **API REST completa para gestión de tareas con FastAPI, PostgreSQL y Docker**
 
-| Campo              | Detalle              |
-| ------------------ | -------------------- |
-| 📅 Fechas          | 7-8 de marzo 2026    |
-| 🏷️ Categoría       | Backend Foundations  |
-| ⏱️ Tiempo estimado | 10-12 horas          |
-| 📊 Dificultad      | ⭐⭐ Intermedio-bajo |
+| Campo              | Detalle                                                           |
+| ------------------ | ----------------------------------------------------------------- |
+| 📅 Fechas          | 7-8 de marzo 2026                                                 |
+| 🏷️ Categoría       | Backend Foundations                                               |
+| ⏱️ Tiempo estimado | 10-12 horas                                                       |
+| 📦 Repositorio     | [artur282/TaskFlow-API](https://github.com/artur282/TaskFlow-API) |
+| 📊 Dificultad      | ⭐⭐ Intermedio-bajo                                              |
 
 ---
 
@@ -21,7 +22,7 @@ No es un simple CRUD tutorial — incluye filtros avanzados, paginación, valida
 
 ## 🏗️ Arquitectura
 
-```
+```mermaid
 ┌─────────────────────────────────────────┐
 │              Cliente (HTTP)              │
 └──────────────────┬──────────────────────┘
@@ -54,29 +55,29 @@ No es un simple CRUD tutorial — incluye filtros avanzados, paginación, valida
 
 ### Core
 
-- [ ] CRUD completo de tareas (crear, leer, actualizar, eliminar)
-- [ ] CRUD de proyectos (agrupar tareas)
-- [ ] Relación proyecto → tareas (1:N)
-- [ ] Prioridades (baja, media, alta, urgente)
-- [ ] Estados (pendiente, en progreso, completada, archivada)
+- [x] CRUD completo de tareas (crear, leer, actualizar, eliminar)
+- [x] CRUD de proyectos (agrupar tareas)
+- [x] Relación proyecto → tareas (1:N)
+- [x] Prioridades (baja, media, alta, urgente)
+- [x] Estados (pendiente, en progreso, completada, archivada)
 
 ### Avanzado
 
-- [ ] Filtros por estado, prioridad, fecha, proyecto
-- [ ] Paginación con cursor o offset
-- [ ] Ordenamiento por múltiples campos
-- [ ] Búsqueda por texto en título y descripción
-- [ ] Validación robusta con Pydantic
-- [ ] Manejo de errores consistente (RFC 7807)
+- [x] Filtros por estado, prioridad, fecha, proyecto
+- [x] Paginación con cursor o offset
+- [x] Ordenamiento por múltiples campos
+- [x] Búsqueda por texto en título y descripción
+- [x] Validación robusta con Pydantic
+- [x] Manejo de errores consistente (RFC 7807)
 
 ### Infraestructura
 
-- [ ] Docker Compose (app + PostgreSQL)
-- [ ] Migraciones con Alembic
-- [ ] Tests con pytest (cobertura ≥ 80%)
-- [ ] Documentación OpenAPI automática
-- [ ] Variables de entorno con Pydantic Settings
-- [ ] Linting con Ruff
+- [x] Docker Compose (app + PostgreSQL)
+- [x] Migraciones con Alembic
+- [x] Tests con pytest (cobertura ≥ 80%)
+- [x] Documentación OpenAPI automática
+- [x] Variables de entorno con Pydantic Settings
+- [x] Linting con Ruff
 
 ---
 
@@ -98,7 +99,7 @@ No es un simple CRUD tutorial — incluye filtros avanzados, paginación, valida
 
 ## 📁 Estructura del proyecto
 
-```
+```bash
 taskflow-api/
 ├── app/
 │   ├── __init__.py
@@ -137,7 +138,7 @@ taskflow-api/
 
 ## 📡 Endpoints de la API
 
-```
+```http
 GET    /api/v1/tasks              # Listar tareas (con filtros y paginación)
 POST   /api/v1/tasks              # Crear tarea
 GET    /api/v1/tasks/{id}         # Obtener tarea por ID
@@ -182,13 +183,13 @@ GET    /docs                      # Documentación Swagger
 
 ## ✅ Definición de "hecho"
 
-- [ ] API funcional con todos los endpoints
-- [ ] Docker Compose levanta todo con un solo comando
-- [ ] Tests pasan con cobertura ≥ 80%
-- [ ] Documentación Swagger generada automáticamente
-- [ ] README con instrucciones de setup y uso
-- [ ] Código limpio (ruff check sin errores)
-- [ ] Repositorio en GitHub con CI básico
+- [x] API funcional con todos los endpoints
+- [x] Docker Compose levanta todo con un solo comando
+- [x] Tests pasan con cobertura ≥ 80%
+- [x] Documentación Swagger generada automáticamente
+- [x] README con instrucciones de setup y uso
+- [x] Código limpio (ruff check sin errores)
+- [x] Repositorio en GitHub con CI básico: [TaskFlow-API](https://github.com/artur282/TaskFlow-API)
 
 ---
 
