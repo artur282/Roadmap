@@ -7,6 +7,7 @@
 | 📅 Fechas          | 14-15 de marzo 2026 |
 | 🏷️ Categoría       | Backend Foundations |
 | ⏱️ Tiempo estimado | 10-12 horas         |
+| 📦 Repositorio     | [artur282/AuthGuard](https://github.com/artur282/AuthGuard) |
 | 📊 Dificultad      | ⭐⭐⭐ Intermedio   |
 
 ---
@@ -54,35 +55,35 @@ Este proyecto se puede reutilizar como módulo de autenticación en cualquier pr
 
 ### Autenticación
 
-- [ ] Registro de usuarios con validación
-- [ ] Login con JWT (access + refresh tokens)
-- [ ] Refresh token rotation
-- [ ] Logout (blacklist de tokens)
-- [ ] Cambio de contraseña
-- [ ] Reset de contraseña (flujo completo)
+- [x] Registro de usuarios con validación
+- [x] Login con JWT (access + refresh tokens)
+- [x] Refresh token rotation
+- [x] Logout (blacklist de tokens)
+- [x] Cambio de contraseña
+- [x] Reset de contraseña (flujo completo)
 
 ### Autorización (RBAC)
 
-- [ ] Roles predefinidos (admin, editor, viewer)
-- [ ] Permisos granulares por recurso
-- [ ] Decoradores de permisos personalizados
-- [ ] Middleware de autenticación
+- [x] Roles predefinidos (admin, editor, viewer)
+- [x] Permisos granulares por recurso
+- [x] Decoradores de permisos personalizados
+- [x] Middleware de autenticación
 
 ### Gestión de usuarios
 
-- [ ] CRUD de usuarios (solo admin)
-- [ ] Perfil de usuario (lectura/edición propia)
-- [ ] Listado con filtros y paginación
-- [ ] Soft delete de usuarios
-- [ ] Auditoría de último login
+- [x] CRUD de usuarios (solo admin)
+- [x] Perfil de usuario (lectura/edición propia)
+- [x] Listado con filtros y paginación
+- [x] Soft delete de usuarios
+- [x] Auditoría de último login
 
 ### Seguridad
 
-- [ ] Rate limiting en endpoints de auth
-- [ ] Password hashing (bcrypt/argon2)
-- [ ] Validación de fortaleza de contraseña
-- [ ] Protección contra brute force
-- [ ] Headers de seguridad (CORS, CSRF)
+- [x] Rate limiting en endpoints de auth
+- [x] Password hashing (bcrypt/argon2)
+- [x] Validación de fortaleza de contraseña
+- [x] Protección contra brute force
+- [x] Headers de seguridad (CORS, CSRF)
 
 ---
 
@@ -150,13 +151,13 @@ POST   /api/v1/users/{id}/roles       # Asignar rol (admin)
 
 ## ✅ Definición de "hecho"
 
-- [ ] Flujo completo de autenticación funcional
-- [ ] RBAC con al menos 3 roles
-- [ ] Tests de cada endpoint de auth
-- [ ] Rate limiting configurado
-- [ ] Documentación OpenAPI completa
-- [ ] Docker Compose funcional
-- [ ] README con instrucciones y ejemplos de uso
+- [x] Flujo completo de autenticación funcional
+- [x] RBAC con al menos 3 roles
+- [x] Tests de cada endpoint de auth
+- [x] Rate limiting configurado
+- [x] Documentación OpenAPI completa
+- [x] Docker Compose funcional
+- [x] README con instrucciones y ejemplos de uso
 
 ---
 
